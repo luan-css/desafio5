@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron" id="campo">
+        <h1 style="text-align:center">Luan Santos</h1>
+        <p class="lead" style="text-align:center">Estágiario na GFT desde 2020</p>
+        <img class="eu" src="~/Scripts/image/eu.jpg" width="250" height="250"/>
+    </div>
+<div class="separador">
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2 style="text-align:center">Projetos</h2>
+        <img src="~/Scripts/image/project.png" width="100" height="100" style="margin-left: 140px;padding-bottom: 7px;"/>
+        <p>
+            Veja todos os projetos que desenvolvi durante meus anos de estudos, entre eles contem: sites e softwares, desenvolvidos com HTML, CSS, C# e Java
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Projetos", "Home")">Clique aqui &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2 style="text-align:center">Habilidades</h2>
+        <img src="~/Scripts/image/skill.png" width="100" height="100" style="margin-left: 140px;padding-bottom: 7px;"/>
+        <p>Todas as habilidades que desenvolvi durante meus anos de estudo na area de tecnologia, desde hard skills a soft skills</p>
+        <p><a class="btn btn-default" href="@Url.Action("Skills", "Home")">Clique aqui  &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2 style="text-align:center">Contatos</h2>
+        <img src="~/Scripts/image/contato.png" width="100" height="100" style="margin-left: 140px;padding-bottom: 7px;"/>
+        <p>Caso queira saber mais detalhes sobre meus projetos ou sobre mim, entre em contato comigo</p>
+        <p><a class="btn btn-default" href="@Url.Action("Contact", "Home")">Clique aqui  &raquo;</a></p>
+    </div>
+</div>
